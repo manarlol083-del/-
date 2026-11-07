@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عن بوصلة</title>
+  <meta name="description" content="تعريف بمشروع بوصلة">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand"><img src="logo.svg" alt="شعار بوصلة"><span>بوصلة</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html"><i class="fa-solid fa-house"></i>الرئيسية</a>
+        <a href="labs.html"><i class="fa-solid fa-door-open"></i>المعامل</a>
+        <a href="map.html"><i class="fa-solid fa-map-location-dot"></i>الخريطة</a>
+        <a href="video.html"><i class="fa-solid fa-circle-play"></i>الفيديو التعريفي</a>
+        <a href="about.html" class="active" aria-current="page"><i class="fa-solid fa-compass"></i>عن بوصلة</a>
+        <a href="help.html"><i class="fa-solid fa-circle-question"></i>مساعدة</a>
+      </nav>
+      <form class="search-box" id="searchForm" role="search">
+        <input type="search" id="searchInput" placeholder="ابحث برقم المعمل (مثال: 31)" aria-label="ابحث برقم المعمل">
+        <button type="submit" aria-label="بحث"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+      <button class="menu-toggle" type="button" aria-label="القائمة" aria-controls="mainNav" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main class="page">
+
+    <div class="page-head">
+      <h1>ما هي بوصلة؟</h1>
+    </div>
+
+    <p class="about-lead">
+      بوصلة موقع إلكتروني تفاعلي يشكّل دليلًا رقميًا وملاحيًا لمتدربات تخصص الوسائط المتعددة الجدد في الكلية التقنية.
+      يهدف المشروع إلى تسهيل الانتقال إلى حياة التدريب التقني، وتقليل التشتت وضيق الوقت في الأيام الأولى،
+      عبر توفير خرائط دقيقة وإرشادات ميسّرة تساعد المتدربات على الوصول إلى معاملهن بسلاسة ودون توتر.
+    </p>
+
+    <div class="notice">
+      <i class="fa-solid fa-layer-group"></i>
+      <div>جميع معامل قسم الوسائط المتعددة الموجودة في بوصلة تقع في <strong>الدور الأرضي</strong>، فلا حاجة لاستخدام الدرج أو المصعد.</div>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature"><i class="fa-solid fa-magnifying-glass"></i><h3>بحث سريع</h3><p>اكتبي رقم المعمل في الشريط العلوي وتنتقلين إلى صفحته مباشرة.</p></div>
+      <div class="feature"><i class="fa-solid fa-image"></i><h3>صور حقيقية</h3><p>صورة لباب كل معمل حتى تتعرّفي عليه عند الوصول.</p></div>
+      <div class="feature"><i class="fa-solid fa-route"></i><h3>خريطة تفاعلية</h3><p>مسار مرسوم من نقطة البداية حتى باب المعمل مع المسافة ووقت المشي.</p></div>
+      <div class="feature"><i class="fa-solid fa-mobile-screen"></i><h3>يعمل على الجوال</h3><p>صُمّم ليُستخدم من الجوال وأنتِ في الممر.</p></div>
+    </div>
+
+    <div class="team">
+      <h2>فريق العمل</h2>
+      <div class="team-list">
+        <span class="team-member">لمياء</span>
+        <span class="team-member">منار</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">بوصلة — دليل معامل قسم الوسائط المتعددة · الكلية التقنية</footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
